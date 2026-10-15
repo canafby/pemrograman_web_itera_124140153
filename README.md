@@ -24,7 +24,7 @@ Sistem kasir sederhana pada kantin kampus yang menghitung subtotal barang, total
 ## 3. Panduan Menjalankan
 
 1. Buka folder proyek di Visual Studio Code.
-2. Pastikan file `index.html`, `style.css`, dan `script.js` berada dalam folder yang sama.
+2. Pastikan file `index.html`, `style.css`, dan `script.js` berada dalam folder proyek.
 3. Klik kanan pada file `index.html`.
 4. Pilih **Open with Live Server**.
 5. Tambahkan barang melalui form dan masukkan nominal pembayaran.
@@ -33,6 +33,7 @@ Sistem kasir sederhana pada kantin kampus yang menghitung subtotal barang, total
 ## 4. Daftar Fitur
 
 ### Validasi Form
+
 - Validasi nama barang minimal 3 karakter.
 - Validasi harga minimal Rp500.
 - Validasi jumlah barang berupa bilangan bulat minimal 1.
@@ -40,18 +41,21 @@ Sistem kasir sederhana pada kantin kampus yang menghitung subtotal barang, total
 - Form direset setelah barang berhasil ditambahkan.
 
 ### Kalkulator Keuangan
-- Menghitung subtotal dan total belanja otomatis.
+
+- Menghitung subtotal dan total belanja secara otomatis.
 - Memberikan diskon 10% jika subtotal minimal Rp50.000.
 - Menghitung total akhir dan kembalian.
-- Menampilkan peringatan jika uang pembayaran belum mencukupi.
+- Menampilkan peringatan jika pembayaran belum mencukupi.
 
 ### Keranjang dan Transaksi
+
 - Menambahkan dan menghapus barang dari keranjang.
 - Menampilkan daftar barang dalam bentuk tabel.
 - Mengosongkan keranjang dan memulai transaksi baru.
 - Menampilkan ringkasan pembayaran.
 
 ### LocalStorage
+
 - Menyimpan data keranjang menggunakan `JSON.stringify()`.
 - Memuat data keranjang menggunakan `JSON.parse()`.
 - Mempertahankan data keranjang setelah halaman di-refresh.
@@ -62,30 +66,48 @@ Sistem kasir sederhana pada kantin kampus yang menghitung subtotal barang, total
 
 Tampilan untuk memasukkan nama barang, harga, dan jumlah barang.
 
-![Form Input Utama](image/form input utama.png)
+![Form Input Utama](image/form%20input%20utama.png)
 
 ### Validasi Error
 
 Tampilan ketika pengguna memasukkan data yang tidak sesuai dengan ketentuan.
 
-![Validasi Error](image/validasi error.png)
+![Validasi Error](image/validasi%20error.png)
 
 ### Hasil Perhitungan
 
 Tampilan keranjang belanja, total pembayaran, diskon, dan kembalian.
 
-![Hasil Perhitungan](image/hasil perhitungan dan riwayat.png)
+![Hasil Perhitungan](image/hasil%20perhitungan%20dan%20riwayat.png)
 
 ## 6. Penjelasan Teknis Singkat
 
 ### A. Validasi Input
 
-Fungsi `validateProduct()` memeriksa nama barang, harga, dan jumlah sebelum data ditambahkan ke keranjang. Jika input tidak sesuai, sistem menampilkan pesan error dan proses penambahan dihentikan.
+Fungsi `validateProduct()` memeriksa nama barang, harga, dan jumlah sebelum barang ditambahkan ke keranjang.
 
 ### B. Kalkulasi Belanja
 
-Fungsi `getTotals()` menggunakan metode `reduce()` untuk menghitung subtotal seluruh barang dan menentukan diskon 10% jika subtotal mencapai Rp50.000. Fungsi `updatePayment()` digunakan untuk memeriksa kecukupan pembayaran dan menghitung kembalian.
+Fungsi `getTotals()` menghitung subtotal dan diskon, sedangkan `updatePayment()` memeriksa kecukupan pembayaran dan menghitung kembalian.
 
 ### C. LocalStorage
 
-Fungsi `saveCart()` menyimpan data keranjang menggunakan `JSON.stringify()`, sedangkan `loadCart()` mengambil dan mengubah data kembali menjadi array menggunakan `JSON.parse()`. Dengan demikian, data keranjang tetap tersedia setelah halaman di-refresh.
+Fungsi `saveCart()` dan `loadCart()` digunakan untuk menyimpan dan memuat data keranjang agar tetap tersedia setelah halaman di-refresh.
+
+## 7. Struktur File
+
+```text
+caniafebriyanti_124140153_pertemuan1/
+├── image/
+│   ├── form input utama.png
+│   ├── hasil perhitungan dan riwayat.png
+│   └── validasi error.png
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
+
+## 8. Penutup
+
+Aplikasi Mini POS merupakan penerapan HTML, CSS, dan JavaScript untuk mengelola keranjang, memvalidasi input, menghitung transaksi, dan menyimpan data menggunakan `localStorage`.
