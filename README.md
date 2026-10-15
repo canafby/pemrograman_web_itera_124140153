@@ -3,11 +3,11 @@
 ## Identitas
 - **Nama:** Cania Febriyanti
 - **NIM:** 124140153
-- **Program Studi:** Teknik Informatika, FTI — ITERA
-- **Kelas Praktikum:** [Isi kelas praktikum]
+- **Program Studi:** Teknik Informatika,
+- **Kelas Praktikum:** PAW RB
 
 ## Deskripsi Aplikasi
-Mini POS adalah aplikasi web kasir sederhana untuk membantu proses transaksi di kantin atau toko kampus. Aplikasi ini dibuat untuk menerapkan validasi input form, perhitungan otomatis, manajemen daftar belanja, dan penyimpanan data menggunakan `localStorage`.
+Mini POS adalah aplikasi web kasir sederhana untuk membantu proses transaksi di kantin. Aplikasi ini dibuat untuk menerapkan validasi input form, perhitungan otomatis, manajemen daftar belanja, dan penyimpanan data menggunakan `localStorage`.
 
 ## Teknologi
 - HTML untuk struktur halaman.
