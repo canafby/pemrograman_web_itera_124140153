@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Mini POS — Kasir Kantin Kampus
 
 ## Identitas
@@ -48,22 +47,3 @@ Fungsi `getTotals()` menggunakan `reduce()` untuk menjumlahkan subtotal semua ba
 ### 3. LocalStorage
 Fungsi `saveCart()` menyimpan array keranjang dengan `JSON.stringify()` ke `localStorage`. Fungsi `loadCart()` mengambil data menggunakan `localStorage.getItem()` lalu mengubahnya kembali menjadi array dengan `JSON.parse()`. Dengan demikian, keranjang tetap tersedia setelah halaman di-refresh. Tombol transaksi baru menghapus data keranjang dari `localStorage`.
 
-## Screenshot
-Tambahkan minimal tiga screenshot aplikasi sebelum pengumpulan:
-1. **Tampilan form input utama:** form tambah barang dan tabel keranjang.
-2. **Tampilan validasi error:** pesan kesalahan saat form dikirim dengan input tidak valid.
-3. **Tampilan perhitungan:** keranjang dengan total, diskon, uang bayar, dan kembalian.
-
-Simpan gambar screenshot di folder `screenshot/` (buat folder tersebut jika diperlukan), lalu tampilkan di bagian ini. Contoh format Markdown:
-
-```md
-![Tampilan utama](screenshot/tampilan-utama.png)
-![Validasi error](screenshot/validasi-error.png)
-![Perhitungan pembayaran](screenshot/perhitungan-pembayaran.png)
-```
-
-## Catatan Pengumpulan
-Buat repository publik dengan nama `pemrograman_web_itera_124140153`, kemudian unggah folder proyek ini. Isi kelas praktikum yang benar dan tambahkan screenshot asli dari aplikasi sebelum mengumpulkan.
-=======
-# praktikum-1-paw
->>>>>>> 607faf7c2398ff1fd03e96dc8f745ab6cb09a959
