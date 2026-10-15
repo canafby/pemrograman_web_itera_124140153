@@ -3,7 +3,7 @@
 ## Identitas
 - **Nama:** Cania Febriyanti
 - **NIM:** 124140153
-- **Program Studi:** Teknik Informatika,
+- **Program Studi:** Teknik Informatika
 - **Kelas Praktikum:** PAW RB
 
 ## Deskripsi Aplikasi
