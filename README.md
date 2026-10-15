@@ -62,19 +62,19 @@ Sistem kasir sederhana pada kantin kampus yang menghitung subtotal barang, total
 
 Tampilan untuk memasukkan nama barang, harga, dan jumlah barang.
 
-_Tambahkan screenshot form input aplikasi di sini._
+![Form Input Utama](image/form input utama.png)
 
 ### Validasi Error
 
 Tampilan ketika pengguna memasukkan data yang tidak sesuai dengan ketentuan.
 
-_Tambahkan screenshot validasi error di sini._
+![Validasi Error](image/validasi error.png)
 
 ### Hasil Perhitungan
 
 Tampilan keranjang belanja, total pembayaran, diskon, dan kembalian.
 
-_Tambahkan screenshot hasil perhitungan di sini._
+![Hasil Perhitungan](image/hasil perhitungan dan riwayat.png)
 
 ## 6. Penjelasan Teknis Singkat
 
