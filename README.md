@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Mini POS — Kasir Kantin Kampus
 
 ## Identitas
@@ -63,3 +64,6 @@ Simpan gambar screenshot di folder `screenshot/` (buat folder tersebut jika dipe
 
 ## Catatan Pengumpulan
 Buat repository publik dengan nama `pemrograman_web_itera_124140153`, kemudian unggah folder proyek ini. Isi kelas praktikum yang benar dan tambahkan screenshot asli dari aplikasi sebelum mengumpulkan.
+=======
+# praktikum-1-paw
+>>>>>>> 607faf7c2398ff1fd03e96dc8f745ab6cb09a959
