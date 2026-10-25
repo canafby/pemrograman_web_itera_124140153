@@ -1,0 +1,38 @@
+<!doctype html><html lang="id"><head><meta charset="utf-8"><style>
+  body{margin:0;background:#111;font-family:Consolas,"Cascadia Mono",monospace}
+  .win{width:1100px;margin:14px;background:#0c0c0c;border:1px solid #333;border-radius:8px;overflow:hidden}
+  .bar{height:34px;background:#202020;display:flex;align-items:center;gap:8px;padding:0 12px;color:#ccc;font-size:13px}
+  .dot{width:11px;height:11px;border-radius:50%}
+  .prompt{padding:12px 16px 0;color:#e6e6e6;font-size:14px}
+  pre{margin:0;padding:10px 16px 20px;color:#d4d4d4;font-size:13.5px;line-height:1.55;white-space:pre-wrap}
+  .ok{color:#23c552}.dim{color:#8f8f8f}.plain{color:#e6e6e6}
+  </style></head><body><div class="win">
+  <div class="bar"><span class="dot" style="background:#ff5f56"></span><span class="dot" style="background:#ffbd2e"></span><span class="dot" style="background:#27c93f"></span><span style="margin-left:8px">Windows PowerShell</span></div>
+  <div class="prompt">PS D:\DAKIM_122140001_pertemuan3&gt; npm test</div>
+  <pre><span class="plain"> </span>
+<span class="plain">&gt; dakim-122140001-pertemuan3@1.0.0 test</span>
+<span class="plain">&gt; vitest run --reporter=verbose --no-color</span>
+<span class="plain"> </span>
+<span class="plain"> </span>
+<span class="dim"> RUN  v2.1.9 C:/Users/User/OneDrive/Dokumen/Default Project/DAKIM_122140001_pertemuan3</span>
+<span class="plain"> </span>
+<span class="ok"> ✓ src/tests/useBookStats.test.js &gt; useBookStats &gt; menghitung total dan jumlah per status</span>
+<span class="ok"> ✓ src/tests/useBookStats.test.js &gt; useBookStats &gt; mengembalikan 0% saat koleksi kosong (tanpa pembagian nol)</span>
+<span class="ok"> ✓ src/tests/BookList.test.jsx &gt; BookList &gt; merender semua buku beserta badge status</span>
+<span class="ok"> ✓ src/tests/BookList.test.jsx &gt; BookList &gt; memanggil onDelete dengan buku yang dipilih</span>
+<span class="ok"> ✓ src/tests/BookList.test.jsx &gt; BookList &gt; menampilkan empty state saat tidak ada buku</span>
+<span class="ok"> ✓ src/tests/BookForm.test.jsx &gt; BookForm &gt; menampilkan pesan error saat judul dan penulis kosong</span>
+<span class="ok"> ✓ src/tests/BookFilter.test.jsx &gt; BookFilter &gt; mengirim kata kunci pencarian ke induk</span>
+<span class="ok"> ✓ src/tests/BookFilter.test.jsx &gt; BookFilter &gt; mengirim status yang dipilih lewat chip filter</span>
+<span class="ok"> ✓ src/tests/BookFilter.test.jsx &gt; BookFilter &gt; menampilkan jumlah hasil dan tombol reset hanya saat filter aktif</span>
+<span class="ok"> ✓ src/tests/BookForm.test.jsx &gt; BookForm &gt; mengirim data yang sudah di-trim dan status pilihan 821ms</span>
+<span class="ok"> ✓ src/tests/Home.test.jsx &gt; Home &gt; menambahkan buku baru dan menyimpannya ke localStorage 985ms</span>
+<span class="ok"> ✓ src/tests/BookForm.test.jsx &gt; BookForm &gt; menghapus pesan error begitu user mulai mengetik</span>
+<span class="ok"> ✓ src/tests/Home.test.jsx &gt; Home &gt; memfilter daftar lewat kata kunci penulis</span>
+<span class="ok"> ✓ src/tests/Home.test.jsx &gt; Home &gt; mengubah buku lalu kembali ke mode tambah 804ms</span>
+<span class="ok"> ✓ src/tests/Home.test.jsx &gt; Home &gt; menghapus buku setelah konfirmasi</span>
+<span class="plain"> </span>
+<span class="dim"> Test Files  5 passed (5)</span>
+<span class="dim">      Tests  15 passed (15)</span>
+<span class="dim">   Start at  22:09:41</span>
+<span class="dim">   Duration  4.64s (transform 295ms, setup 881ms, collect 2.08s, tests 3.81s, environment 5.15s, prepare 1.43s)</span></pre></div></body></html>
