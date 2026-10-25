@@ -4,9 +4,9 @@ Tugas Pertemuan 3 — project React terpisah untuk mencatat koleksi buku pribadi
 
 Data disimpan di `localStorage`, jadi koleksi tetap ada setelah browser ditutup. Aplikasi terdiri dari dua halaman (daftar buku dan statistik) dengan navigasi React Router.
 
-- **Nama:** DAKIM
-- **NIM:** 122140001
-- **Folder:** `DAKIM_122140001_pertemuan3`
+- **Nama:** Cania Febriyanti
+- **NIM:** 124140153
+- **Folder:** `CANIA_124140153_pertemuan3`
 
 ---
 
