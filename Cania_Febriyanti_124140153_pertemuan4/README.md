@@ -1,12 +1,9 @@
 # Tugas Praktikum Pertemuan 4 - Python Dasar
 
 ## Identitas Mahasiswa
-| Keterangan | Data |
-|------------|------|
-| Nama | Cania Febriyanti |
-| NIM | 124140153 |
-| Kelas | RB |
-
+Nama: Cania Febriyanti  
+NIM: 124140153  
+Kelas: RB
 ## Struktur Folder
 ```
 Cania_Febriyanti_124140153_pertemuan4/
