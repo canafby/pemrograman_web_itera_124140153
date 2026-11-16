@@ -2,8 +2,6 @@
 
 ## Identitas Mahasiswa
 
-| Keterangan | Isi |
-| --- | --- |
 | Nama Lengkap | Cania Febriyanti |
 | NIM | 124140153 |
 | Kelas Praktikum | RB |
