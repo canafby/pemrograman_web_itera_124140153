@@ -2,10 +2,9 @@
 
 ## Identitas Mahasiswa
 
-| Nama Lengkap | Cania Febriyanti |
-| NIM | 124140153 |
-| Kelas Praktikum | RB |
-
+- **Nama Lengkap** : Cania Febriyanti
+- **NIM** : 124140153
+- **Kelas Praktikum** : RB
 ## Deskripsi Program
 
 Program ini adalah sistem manajemen perpustakaan sederhana berbasis OOP Python. Perpustakaan dapat menyimpan dua jenis item, yaitu **buku** dan **majalah**. Anggota dapat meminjam dan mengembalikan item, dan sistem menghitung denda keterlambatan.
